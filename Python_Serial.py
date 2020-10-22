@@ -27,7 +27,7 @@ fig.subplots_adjust(right=0.85)
 #Plot Realtime Values
 
 def plotValues():
-    #Create a second y axis  
+    #Create a  y axis  
     plt.ylim(0,4)                                      
     plt.title('Serial value')                              
     plt.grid(True)                                      
